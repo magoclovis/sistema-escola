@@ -1,0 +1,10 @@
+- crud funcional  07/04/2021
+- login funcional 09/04/2021
+
+- fazer opcoes de sexualidade
+- listar materias fixas (opcao com bolinhas para marcar) para atribuir para os crudProfessores
+- listar todas as materias e notas dos alunos
+- não deixar editar ou adicionar um aluno/professor vazio
+
+https://www.youtube.com/watch?v=iTRzbaLBzmA
+https://www.youtube.com/watch?v=Zb0v0ypU-V8
