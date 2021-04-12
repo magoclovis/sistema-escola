@@ -1,6 +1,6 @@
 <?php
 // connection
-include_once 'php_action/db_connect.php';
+include_once '../crudProfessores/php_action/db_connect.php';
 // header
 include_once '../crudProfessores/includes/header.php';
 // verifica login
@@ -24,18 +24,27 @@ endif;
                 <input type="text" name="nome" id="nome" value="<?php echo $dados['nome'];?>">
                 <label for="nome">Nome</label>
             </div>
+
             <div class="input-field col s12">
                 <input type="text" name="sobrenome" id="sobrenome" value="<?php echo $dados['sobrenome'];?>">
                 <label for="sobrenome">Sobrenome</label>
             </div>
+
             <div class="input-field col s12">
                 <input type="text" name="matricula" id="matricula" value="<?php echo $dados['matricula'];?>">
                 <label for="matricula">Matrícula</label>
             </div>
+
             <div class="input-field col s12">
                 <input type="text" name="email" id="email" value="<?php echo $dados['email'];?>">
                 <label for="email">Email</label>
             </div>
+
+            <div class="input-field col s12">
+                <input type="text" name="materia" id="materia" value="<?php echo $dados['materia'];?>">
+                <label for="nota">Materia</label>
+            </div>
+
             <div class="input-field col s12">
                 <input type="text" name="nota" id="nota" value="<?php echo $dados['nota'];?>">
                 <label for="nota">Nota</label>
